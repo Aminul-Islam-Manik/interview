@@ -1,0 +1,451 @@
+/* 
+Small devices (portrait phones,less then 576px)
+*/
+
+@media (max-width: 575.98px){
+
+  .nav-right ul li {
+    padding: 10px 3px;
+}
+.nav-right ul li img {
+  margin-left: 2px;
+}
+.nav-right ul li a {
+  font-size: 11px;
+}
+  .banner-bottom .baner-right h1::after {
+    content: "";
+    position: absolute;
+    width: 56px;
+    height: 4px;
+    background: #fff;
+    top: 18%;
+    left: 48px;
+}
+.heading img {
+  width: 255px;
+  height: 35px;
+  margin-bottom: 53px;
+}
+.banner-bottom .baner-right {
+  width: 100%;
+  padding: 56px 100px 77px 47px;
+  background: #000;
+  position: relative;
+}
+.banner::before {
+  content: "";
+  width: 312px;
+  height: 4px;
+  background: #fff;
+  position: absolute;
+  top: 44%;
+  left: 19%;
+}
+
+.gllry {
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 70px;
+}
+  .ins-gry img {
+    width: 100%;
+  }
+
+  .mission-right {
+    padding-left: 0px;
+    padding-top: 163px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+
+.mission-right h1::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 4px;
+  background: #000;
+  top: 39%;
+  left: 42%;
+}
+.price-left-inner h2::after {
+  content: "";
+  position: absolute;
+  width: 66px;
+  height: 4px;
+  background: #000;
+  top: 17%;
+  right: 208px;
+}
+.footer-left{
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-left ul li:not(:first-child) a::before {
+  content: "";
+  width: 9px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 48%;
+  top: -2px;
+}
+
+.cont-middle-end::before {
+  content: "";
+  width: 75%;
+  height: 5px;
+  position: absolute;
+  top: -41px;
+  left: -6px;
+  background: #000;
+}
+.Ingredient-right {
+  padding: 78px 0px 0px 0px;
+  text-align: center;
+}
+.Ingredient-right p {
+  font-size: 17px;
+}
+.footer-right {
+  text-align: center;
+}
+
+.icoon {
+  justify-content: center;
+}
+
+
+
+}
+  /* 
+Small devices (landscape phones, 576px and up)
+  */
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+
+    .nav-right ul li {
+      padding: 10px 3px;
+  }
+    .banner::before {
+      content: "";
+      width: 420px;
+      height: 6px;
+      background: #fff;
+      position: absolute;
+      top: 59%;
+      left: 19%;
+  }
+  .mission-right {
+    width: 100%;
+    padding-top: 145px;
+}
+
+
+
+.mission-right h1::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 4px;
+  background: #000;
+  top: 34%;
+  left: 19%;
+}
+.price-left-inner h2::after {
+  content: "";
+  position: absolute;
+  width: 66px;
+  height: 4px;
+  background: #000;
+  top: 18%;
+  right: 224px;
+}
+.footer-left ul li:not(:first-child) a::before {
+  content: "";
+  width: 9px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  left: 246px;
+  top: -2px;
+  text-align: center;
+}
+
+.gllry {
+  grid-template-columns: 1fr 1fr ;
+  margin-bottom: 50px;
+}
+.ins-gry img {
+  width: 100%;
+}
+
+.cont-middle-end::before {
+  content: "";
+  width: 75%;
+  height: 5px;
+  position: absolute;
+  top: -41px;
+  left: -6px;
+  background: #000;
+}
+.footer-left{
+  text-align: center;
+  margin-bottom: 40px;
+}
+.banner-bottom .baner-right h1::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 4px;
+  background: #fff;
+  top: 20%;
+  left: 48px;
+}
+.footer-right {
+  text-align: center;
+}
+
+.icoon {
+  justify-content: center;
+}
+
+
+
+
+
+
+
+  }
+  /* 
+Medium devices (tablets, 768px and up)
+  */
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .gllry {
+      grid-template-columns: 1fr 1fr 1fr ;
+      margin-bottom: 60px;
+    }
+    .ins-gry img {
+      width: 100%;
+    }
+ 
+    .price-right{
+      padding: 25px 0;
+    }
+    .banner-bottom .baner-right h1::after {
+      content: "";
+      position: absolute;
+      width: 56px;
+      height: 4px;
+      background: #fff;
+      top: 23%;
+      left: 6%;
+  }
+  .banner-bottom .baner-right p {
+    padding: 23px 0;
+}
+.banner-bottom .baner-right {
+  padding: 56px 124px 79px 47px;
+}
+.banner::before {
+  content: "";
+  width: 420px;
+  height: 6px;
+  background: #fff;
+  position: absolute;
+  top: 59%;
+  left: 26%;
+}
+
+.miss-img {
+  position: absolute;
+  width: 100%;
+}
+.mission-right {
+  padding-top: 260px;
+}
+.mission-right h1::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 4px;
+  background: #000;
+  top: 48%;
+  left: 13%;
+}
+.price-left-inner h2::after {
+  top: 20%;
+  right: 41%;
+}
+.price-right {
+  margin-left: 15px;
+}
+.price-right p {
+  font-size: 13px;
+  font-weight: 400;
+}
+.price-left .btn-dengar {
+  padding: 8px 29px;
+  font-size: 17px;
+  margin-top: 0px;
+}
+.Ingredient-right p {
+  color: #fff;
+  font-size: 15px;
+}
+.content-left h1 {
+  color: #000;
+  font-size: 28px;
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+  /* 
+Large devices (Desktops, 992px and up)
+  */
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+
+
+    .banner::before {
+      top: 59%;
+      left: 29%;
+  }
+
+    .banner-bottom .baner-right h1::after {
+      top: 19%;
+      left: 48px;
+  }
+    .mission-left p {
+      font-size: 14px;
+  }
+    .mission-left-inner {
+      width: 100%;
+      padding-top: 242px;
+  }
+    .mission-right {
+      width: 100%;
+      padding-left: 69px;
+      padding-top: 52px;
+      padding-bottom: 50px;
+      padding-right: 36px;
+      position: relative;
+  }
+    .miss-img {
+      position: absolute;
+      width: 100%;
+      height: 520px;
+      object-fit: cover;
+  }
+  .mission-right p {
+    font-size: 14px;
+}
+.banner-bottom .baner-right {
+  width: 100%;
+  padding: 56px 124px 29px 47px;
+  background: #000;
+  position: relative;
+}
+.mission-right h1::after {
+  top: 20%;
+  left: 14%;
+}
+.price-left-inner h2::after {
+  top: 19%;
+  right: 41%;
+}
+    .gllry {
+      margin-bottom: 60px;
+    }
+    .ins-gry img {
+      width: 100%;
+    }
+    .content-left h1 {
+      font-size: 25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+  /* 
+Extra large devices (large desktops, 1200px and up)
+  */
+  
+  @media (min-width: 1200px) {
+
+  .miss-img {
+    position: absolute;
+    width: 100%;
+}
+.mission-right {
+  width: 100%;
+  padding-left: 84px;
+  padding-top: 38px;
+  padding-bottom: 50px;
+  padding-right: 99px;
+  position: relative;
+}
+
+.mission-right h1::after {
+  content: "";
+  position: absolute;
+  width: 56px;
+  height: 4px;
+  background: #000;
+  top: 17%;
+  left: 14%;
+}
+
+.gllry {
+  margin-bottom: 60px;
+}
+.ins-gry img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+
+
+
+
+
